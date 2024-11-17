@@ -11,27 +11,6 @@ const questions = [
     ],
   },
   {
-    question: `What is the correct JavaScript syntax to change the content of the HTML element <br> &ltp id="demo">This is a demonstration.&lt/p>?`,
-    answers: [
-      {
-        text: `document.GetElement("p").innterHTML = "Hello World!";`,
-        correct: false,
-      },
-      {
-        text: `document.GetElementById("demo").innterHTML = "Hello World!";`,
-        correct: true,
-      },
-      {
-        text: `document.GetElementByName("p").innterHTML = "Hello World!";`,
-        correct: false,
-      },
-      {
-        text: `#demo.innerHTML = "Hello World!";`,
-        correct: false,
-      },
-    ],
-  },
-  {
     question: `What is the correct syntax for referring to an external script called "xxx.js"?`,
     answers: [
       {
